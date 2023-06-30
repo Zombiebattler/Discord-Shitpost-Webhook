@@ -33,7 +33,7 @@ def Send(Text, Video):
 
     seconds = Timeout_in_seconds
 
-        if repeat == True:
+    if repeat == True:
         while seconds > 0:
             print(f"New Shitpost in: {seconds}")
             time.sleep(1)
