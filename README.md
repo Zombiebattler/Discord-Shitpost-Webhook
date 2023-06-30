@@ -1,6 +1,8 @@
 # Discord-Shitpost-Webhook
 
 
-Discord Shitpost Webhook powerd by this api's
+Discord Shitpost Webhook 
+
+powerd by thes api's:
 
 https://thedailyshitpost.net/api
