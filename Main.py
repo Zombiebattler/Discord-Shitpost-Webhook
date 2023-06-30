@@ -5,7 +5,7 @@ import time
 
 webhook_url = 'YOUR_WEBHOOK_URL'
 
-Timeout_in_seconds = 20
+Timeout_in_seconds = 86400   #1 hour = 3600 / 12 hours = 43200 / 24 hours = 86400
 
 #====VARIABLES====#
 
