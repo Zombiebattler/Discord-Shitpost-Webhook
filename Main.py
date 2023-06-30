@@ -42,7 +42,7 @@ def Send(Text, Video):
         GetContent()
 
     else:
-        GetContent()
+        print("Done")
 
 if __name__ == '__main__':
     GetContent()
