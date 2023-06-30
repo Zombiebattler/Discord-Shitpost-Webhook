@@ -5,6 +5,8 @@ import time
 
 webhook_url = 'YOUR_WEBHOOK_URL'
 
+repeat = False
+
 Timeout_in_seconds = 86400   #1 hour = 3600 / 12 hours = 43200 / 24 hours = 86400
 
 #====VARIABLES====#
@@ -31,12 +33,16 @@ def Send(Text, Video):
 
     seconds = Timeout_in_seconds
 
-    while seconds > 0:
-        print(f"New Shitpost in: {seconds}")
-        time.sleep(1)
-        seconds -= 1
+        if repeat == True:
+        while seconds > 0:
+            print(f"New Shitpost in: {seconds}")
+            time.sleep(1)
+            seconds -= 1
 
-    GetContent()
+        GetContent()
+
+    else:
+        GetContent()
 
 if __name__ == '__main__':
     GetContent()
