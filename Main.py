@@ -3,7 +3,7 @@ import time
 
 #====VARIABLES====#
 
-webhook_url = 'https://discordapp.com/api/webhooks/1087403026756677732/DKfSRuUyVrarhjIEeC1SIGR-oDvkncpsSGfCpMq9zrLCnb81C_DzJC2iMXKAdZrq0gGw'
+webhook_url = 'YOUR_WEBHOOK_URL'
 
 Timeout_in_seconds = 20
 
