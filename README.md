@@ -3,6 +3,6 @@
 
 Discord Shitpost Webhook 
 
-powerd by thes api's:
+powered via this api's
 
 https://thedailyshitpost.net/api
